@@ -79,7 +79,7 @@ function getPublicIp() {
 getPublicIp();
 
 function getWeatherData(city, unit, hourlyorWeek) {
-  const apiKey = "9XSMLW5UJ9BQRWGZQVEVM9SC9";
+  const apiKey = "YOUR_VISUAL_CROSSING_API_KEY";
   const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=${apiKey}&contentType=json`;
 
   fetch(url)
@@ -524,7 +524,7 @@ function toggleNewsSection() {
 
 // Function to fetch weather news articles
 function fetchWeatherNews() {
-  const newsApiKey = '54980400681f4b5899b58a527a532a05';
+  const newsApiKey = 'YOUR_NEWS_API_KEY';
   const newsUrl = `https://newsapi.org/v2/top-headlines?q=weather&apiKey=${newsApiKey}`;
 
   fetch(newsUrl)
