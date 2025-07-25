@@ -45,12 +45,12 @@ This is a fully responsive and interactive web application that displays real-ti
 
 ✨ Future Improvements:
 
-🌐 Geolocation-based unit toggle
+   🌐 Geolocation-based unit toggle
 
-⏰ 10-day extended forecast
+   ⏰ 10-day extended forecast
 
-📱 Improved mobile support
+   📱 Improved mobile support
 
-🌤️ More accurate icon mappings
+   🌤️ More accurate icon mappings
 
-🔒 Secure key management
+   🔒 Secure key management
